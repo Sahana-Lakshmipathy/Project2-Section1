@@ -1,0 +1,7 @@
+export PATH=$PATH:/c/Users/Sahana/.zokrates/bin
+echo $PATH
+sha256.zok
+zokrates compile -i sha256.zok
+
+zokrates compute-witness -a 0 0 0 1129529685 285551088474675990519063903894825317322 192916772619636604765586326883831074249
+zokrates setup
